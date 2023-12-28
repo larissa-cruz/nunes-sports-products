@@ -34,10 +34,10 @@ Trata-se de um sistema de CRUD de produtos. O usuário administrador, previament
   * *src/main/resources/**application.properties***: Arquivo de configuração do banco de dados H2 (como url do banco, username e password), configurações da JPA e SQL.
   * *src/main/resources/**import.sql***: Arquivo . sql onde estão presentes algumas inserções, as quais, ao inicializar o sistema, já estarão previamente cadastradas no banco de dados, sendo elas: o usuário adm na tabela *tb_user* e um produto na tabela *tb_product*.
 
- # Estrutura do Projeto (Front-end)
+ ## Estrutura do Projeto (Front-end)
  * *src/components*: Onde estão os arquivos que representam as páginas da aplicação (Home, Sobre e Produtos)
  
- # Tecnologias utilizadas
+ ## Tecnologias utilizadas
 - Java
 - Spring Boot
 - JPA / Hibernate
